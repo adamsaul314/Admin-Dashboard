@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    
   }
   
 
@@ -29,4 +33,38 @@ body, html {
 
 .header{
     /* grid-area: 1 / 2 / 2 / 3; */
+}
+
+.navigation{
+    display: grid;
+    grid-template-rows: 100px 300px 200px;
+}
+
+.logo{
+    grid-row: 1 / 2;
+    color: white;
+    font-size: 22;
+}
+
+.nav1{
+    grid-row: 2 / 3;
+    margin-left: 15px;
+    
+}
+.nav1 ul, .nav1 li{
+    list-style-type: none;
+    margin:0 0 10px 0;  
+    color: white;
+    font-size: 22px;
+}
+
+.nav2{
+    grid-row: 3 / 4;
+}
+
+.nav2 ul, .nav2 li{
+    list-style-type: none;
+    margin:0 0 10px 0;
+    color: white;  
+    font-size: 22px;
 }
