@@ -24,6 +24,7 @@ body, html {
     overflow: hidden; 
 
     padding: 0; 
+    
 }
 
 .sidebar{
@@ -34,7 +35,8 @@ body, html {
 .header{
     display: grid;
     grid-template-columns: 100px 2fr 200px 100px 300px;
-    grid-template-rows: 1fr 30px 1fr;
+    grid-template-rows: 70px 30px 60px;
+    overflow: hidden;
     align-items: center; 
     justify-content: center; 
     margin-left: 40px;
@@ -213,6 +215,9 @@ body, html {
     margin-left: 10px;
   }
   
+  .main-content{
+    background-color: lightgrey;
+  }
 
   
 
