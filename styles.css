@@ -174,4 +174,46 @@ body, html {
     margin-left: 20px;
   }
 
+  .btnNew{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    width: 100px;
+    height: 30px;
+    background-color: #007BFF;
+    color: white;
+    border: #007BFF;
+    border-radius: 17px;
+    justify-self: end;
+    margin-right: 10px;
+  }
+
+  .btnUpload{
+    grid-column: 4/5;
+    grid-row: 3 / 4;
+    width: 100px;
+    height: 30px;
+    background-color: #007BFF;
+    color: white;
+    border: #007BFF;
+    border-radius: 17px;
+    
+  }
+
+  
+
+  .btnShare{
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+    width: 100px;
+    height: 30px;
+    background-color: #007BFF;
+    color: white;
+    border: #007BFF;
+    border-radius: 17px;
+    margin-left: 10px;
+  }
+  
+
+  
+
   
