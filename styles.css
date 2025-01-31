@@ -33,8 +33,11 @@ body, html {
 
 .header{
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 2fr 200px 100px 300px;
     grid-template-rows: repeat(2, 1fr);
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 40px;
 }
 
 .navigation{
@@ -87,3 +90,45 @@ body, html {
     color: white;  
     font-size: 22px;
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    height: 50px;
+    width: 100%;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    font-size: 16px;
+    flex-grow: 1; 
+    border-radius: 20px;
+  }
+  
+  .search-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .search-btn:hover {
+    color: #007BFF; 
+  }
+
+  .bell{
+    display: flex;
+    grid-column: 2 / 3;
+    font-size: 35px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+  }
