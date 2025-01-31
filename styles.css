@@ -132,3 +132,18 @@ body, html {
     justify-content: flex-end;
     margin-right: 15px;
   }
+
+  .profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile img{
+    height: 65px;
+    width: 65px;
+  }
+
+  .userName{
+    margin-left: 20px;
+  }
