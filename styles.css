@@ -27,7 +27,7 @@ body, html {
 }
 
 .sidebar{
-    background-color: lightskyblue;
+    background-color: #007FFF;
     grid-row: span 2;
 }
 
@@ -44,24 +44,41 @@ body, html {
     grid-row: 1 / 2;
     color: white;
     font-size: 22;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
 .nav1{
     grid-row: 2 / 3;
-    margin-left: 15px;
+    margin-left: 25px;
     
 }
-.nav1 ul, .nav1 li{
+/* .nav1 ul, .nav1 li{
     list-style-type: none;
     margin:0 0 10px 0;  
     color: white;
     font-size: 22px;
-}
+    gap: 20px;
+} */
 
 .nav2{
     grid-row: 3 / 4;
+    margin-left: 25px;
+    
+    
 }
 
+.nav1 ul, .nav2 ul {
+    display: grid; 
+    list-style-type: none;
+    margin:0 0 10px 0;  
+    color: white;
+    font-size: 22px;
+    gap: 20px;
+  }
+
+
+  
 .nav2 ul, .nav2 li{
     list-style-type: none;
     margin:0 0 10px 0;
