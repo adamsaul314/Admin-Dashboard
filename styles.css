@@ -46,12 +46,72 @@
     margin-top: 10px;
     height: 150px;
     
-}
-
-.navigation{
+  }
+  
+  .navigation{
     display: grid;
     grid-template-rows: 100px 300px 200px;
-}
+  }
+  
+  
+  .main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr 5fr 1fr;
+
+    background-color: lightgrey;
+  }
+
+  .projectCards{
+    background-color: white;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: 10px 8fr 3fr 3fr;
+    grid-template-rows:  1fr 3fr 1fr;
+  }
+
+  .projectCards p{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+     
+  }
+
+  .projectCards h3{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .projectCard1{
+    background-color: white;
+    grid-row: 2 / 3;
+  }
+
+  .projectCard2{
+    background-color: white;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+
+  .projectCard3{
+    background-color: white;
+    grid-row: 3 / 4;
+  }
+
+  .projectCard4{
+    background-color: white;
+    grid-row: 3 / 4;
+  }
+
+  .projectCard5{
+    background-color: white;
+    grid-row: 4 / 5;
+  }
+
+  .projectCard6{
+    background-color: white;
+    grid-row: 4 / 5;
+  }
+
 
 .logo{
     grid-row: 1 / 2;
@@ -222,9 +282,6 @@
     margin-left: 10px;
   }
   
-  .main-content{
-    background-color: lightgrey;
-  }
 
   
 
