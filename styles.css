@@ -57,23 +57,22 @@
   .main-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr 2fr 2fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 2fr 1fr 1fr 4fr 1fr;
 
     gap: 20px;
     padding: 20px;
-    background-color: lightgrey;
+    background-color: #ececec;
+    box-shadow:  1px px rgba(0, 0, 0, 0.2) inset;
   }
 
   .projectCards{
     background-color: white;
-    border-radius: 10px;
-
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: grid;
-    /* grid-template-columns: 10px 300px 50px 50px;
-    grid-template-rows:  50px 150px 50px 50px; */
-    grid-template-columns: 10px 3fr 50px 50px; /* More flexible sizing */
+    grid-template-columns: 10px 3fr 50px 50px;
     grid-template-rows: auto;
-    width: 100%; /* Makes sure cards expand */
+    width: 100%;
   }
 
   .projectCards p{
@@ -87,6 +86,7 @@
     background-color: yellow;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
+    
   }
   
   /* .yellowBar{
@@ -117,23 +117,112 @@
 
   .projectCard3{
     background-color: white;
-    grid-row: 3 / 5;
+    grid-row: 3 / 6;
   }
 
   .projectCard4{
     background-color: white;
-    grid-row: 3 / 5;
+    grid-row: 3 / 6;
   }
 
   .projectCard5{
     background-color: white;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
   }
 
   .projectCard6{
     background-color: white;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
   }
+
+  .announceCard{
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+
+    background-color: white;
+    grid-row: 2 / 4;
+    grid-column: 3 / 4;
+
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .announce{
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .trend{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .trendingCards{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(4, 1fr);
+
+    background-color: white;
+    grid-row: 5 / 7;
+    grid-column: 3 / 4;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .trendingCards p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+
+  }
+
+  .trendImage1 img,
+  .trendImage2 img,
+  .trendImage3 img,
+  .trendImage4 img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .trendImage1,
+  .trendImage2,
+  .trendImage3,
+  .trendImage4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .card1{
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+  .card2{
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  .card3{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+  }
+  .card4{
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+  }
+
 
 
 .logo{
